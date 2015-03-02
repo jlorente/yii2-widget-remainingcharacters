@@ -1,0 +1,23 @@
+{
+    "name": "jlorente/yii2-widget-remainingcharacters",
+    "description": "Widget to add a remaining character counter to text inputs and textareas",
+    "keywords": ["remaining","characters","counter","input","text","textarea"],
+    "homepage": "https://github.com/jlorente/yii2-widget-remainingcharacters",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jose Lorente Martin",
+            "email": "jose.lorente.martin@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jquery-remaining-characters": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "jlorente\\remainingcharacters\\": ""
+        }
+    }
+}
