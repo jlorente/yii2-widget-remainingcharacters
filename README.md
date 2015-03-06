@@ -8,8 +8,6 @@ RemainingCharacters widget is a Yii2 wrapper for the jquery-remaining-characters
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/). Check the [composer.json](https://github.com/jlorente/yii2-widget-remainingcharacters/composer.json) for this extension's requirements and dependencies.
 
-Include the package as dependency under the bower.json file.
-
 To install, either run
 
 ```bash
@@ -22,7 +20,7 @@ or add
 ...
     "require": {
         ...
-        "jlorente/yii2-widget-remainingcharacters: "*"
+        "jlorente/yii2-widget-remainingcharacters": "*"
     }
 ```
 
@@ -31,7 +29,7 @@ to the ```require``` section of your `composer.json` file.
 ## Usage
 
 ```php
-use jlorente\remainingcharactes\RemainingCharacters;
+use jlorente\remainingcharacters\RemainingCharacters;
 
 // 
 echo $form->field($model, 'my-textarea')->widget(RemainingCharacters::classname(), [
