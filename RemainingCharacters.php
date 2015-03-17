@@ -33,7 +33,7 @@ class RemainingCharacters extends InputWidget {
     /**
      * Input text type.
      */
-    const INPUT_TEXT = 'text';
+    const INPUT_TEXT = 'textinput';
 
     /**
      *
